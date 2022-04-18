@@ -29,6 +29,6 @@ data = [Bar(x=x_values, y=frequencies)]
 x_axis_config = {'title': 'Result', 'dtick': 1}
 y_axis_config = {'title': 'Frequency'}
 
-my_layout = Layout(title = 'Results of rolling five D7 die a thousand times',
+my_layout = Layout(title = 'Results of rolling five D7 dice for 10000 times',
     xaxis = x_axis_config, yaxis = y_axis_config)
 offline.plot({'data': data, 'layout': my_layout}, filename='d7.html')
