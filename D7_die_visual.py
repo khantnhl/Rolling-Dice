@@ -10,7 +10,10 @@ die_3 = Die()
 die_4 = Die()
 die_5 = Die()
 results = []
+ 
 
+
+ #kfdashjofhodshiahfoiasdh
 for rollnum in range(10000):
     result = die_1.roll() + die_2.roll() + die_3.roll() + die_4.roll() + die_5.roll()
     results.append(result)
@@ -32,3 +35,4 @@ y_axis_config = {'title': 'Frequency'}
 my_layout = Layout(title = 'Results of rolling five D7 dice for 10000 times',
     xaxis = x_axis_config, yaxis = y_axis_config)
 offline.plot({'data': data, 'layout': my_layout}, filename='d7.html')
+            
